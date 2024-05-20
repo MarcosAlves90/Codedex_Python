@@ -12,9 +12,7 @@ print("3) Square")
 print("4) Circle")
 print("5) Exit")
 
-response = None
-
-while response == None:
+while True:
     response = input("\nWhich shape: ")
 
     print()
@@ -46,5 +44,3 @@ while response == None:
             print("Invalid input.")
     else:
         print("Invalid input.")
-        
-    response = None
